@@ -14,7 +14,8 @@ const app = express();
 
 // === CORS Middleware ===
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'], // Allow both frontend origins
+  origin: ['https://racipe-sharing18.vercel.app
+'], // Allow both frontend origins
   credentials: true, // Allow cookies/authorization headers
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
